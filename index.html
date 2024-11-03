@@ -68,37 +68,40 @@
         </p>
       </section>
     </div><!-- .servicios -->
-  </main>
-  
-  <section>
-    <h2>Contacto</h2>
-    <form>
-      <fieldset>
-        <legend>Contáctame llenando todos los campos</legend>
-        <div>
-          <label>Nombre</label>
-          <input type="text" placeholder="nombre">
-        </div>
-        <div>
-          <label>Teléfono</label>
-          <input type="tel" placeholder="teléfono">
-        </div>
-        <div>
-          <label>Correo</label>
-          <input type="email" placeholder="email">
-        </div>
-        <div>
-          <label>Mensaje</label>
-          <textarea placeholder="mensaje..."></textarea>
-        </div>
-        <div>
-          <input type="submit" value="Enviar">
-        </div>
-      </fieldset>
-    </form>
-  </section>
 
-  <footer>
+    <section>
+      <h2>Contacto</h2>
+      <form class="formulario">
+        <fieldset>
+          <legend>Contáctame llenando todos los campos</legend>
+          <div class="contenedor-campos">
+            <div class="campo">
+              <label>Nombre</label>
+              <input type="text" class="input-text" placeholder="nombre">
+            </div>
+            <div class="campo">
+              <label>Teléfono</label>
+              <input type="tel" class="input-text" placeholder="teléfono">
+            </div>
+            <div class="campo">
+              <label>Correo</label>
+              <input type="email" class="input-text" placeholder="email">
+            </div>
+            <div class="campo">
+              <label>Mensaje</label>
+              <textarea class="input-text" placeholder="mensaje..."></textarea>
+            </div>
+          </div>
+          
+          <div class="alinear-derecha flex">
+            <input type="submit" class="boton w-sm-100" value="Enviar">
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
     <p>Todos los derechos reservados.Bruno Bettio Freelancer</p>
   </footer>
 </body>
